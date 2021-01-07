@@ -8,7 +8,7 @@ public class HowMany {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Ведіть стрічку роставляючи пробіл між словами");
+        System.out.println("Ведіть стрічку роjставляючи пробіл між словами");
         String input = sc.nextLine();
 
         int count = 0;
