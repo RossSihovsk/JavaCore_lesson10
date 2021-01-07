@@ -16,7 +16,7 @@ public class HowMany {
         if(input.length() != 0){
             count++;
 
-            for (int i = 0; i < input.length(); i++) {
+            for (int i = 1; i < input.length()-1; i++) {
                 if(input.charAt(i) == ' '){
 
                     count++;
